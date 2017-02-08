@@ -1,7 +1,7 @@
 import socket
 import sys
 import random
-from Pillow import Image
+from PIL import Image
 import time
 import pickle
 
