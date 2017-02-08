@@ -126,7 +126,7 @@ def serverInput():
 
     while(True):
         #accepts input on server side for admin
-        tmp=0;
+        tmp=0
 
 
     return 0
