@@ -27,8 +27,8 @@
       <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6">
-              <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.7862069">
+              <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -282,7 +282,13 @@
       <option name="project" value="LOCAL" />
       <updated>1486773430119</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testing server side calcs">
+      <created>1486774724931</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1486774724931</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -524,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6">
-          <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.7862069">
+          <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
