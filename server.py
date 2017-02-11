@@ -83,7 +83,7 @@ def serverFunctionalCode(connection, client_address):
                 print 'file is correct'
                 print 'Recieving Image'
                 print 'beginning file size %d' % os.path.getsize(imageName)
-                while not os.path.getsize(imageName) < sizeExpected:
+                while os.path.getsize(imageName) < sizeExpected:
                     data = connection.recv(4096)
                     imageFile.write(data)
                     print 'writing file total size %d' % os.path.getsize(imageName)
