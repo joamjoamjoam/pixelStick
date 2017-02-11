@@ -185,7 +185,7 @@ if __name__ == '__main__':
     sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
     # Bind the socket to the port
-    server_address = ('localhost', 7908)
+    server_address = ('0.0.0.0', 7907)
     print >> sys.stderr, 'starting up on %s port %s' % server_address
     sock.bind(server_address)
 
