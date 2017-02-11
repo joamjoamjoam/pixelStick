@@ -83,15 +83,11 @@ def serverFunctionalCode(connection, client_address):
                 print 'file is correct'
                 print 'Recieving Image'
                 print 'beginning file size %d' % os.path.getsize(imageName)
-                store = []
-                while sys.getsizeof(store) < sizeExpected:
+                while os.path.getsize(imageName) < sizeExpected:
                     data = connection.recv(4096)
-                    if data:
-                        store.append(data)
-                    else:
-                        time.sleep(.01)
-                    print 'writing file total size %d' % sys.getsizeof(store)
-                imageFile.write(store)
+                    imageFile.write(data)
+                    print 'writing file total size %d' % os.path.getsize(imageName)
+
                 imageFile.close()
                 # convert it for use and store imageMatrix for Pickling
                 imageMatrix, width, height = loadImage(imageName)
