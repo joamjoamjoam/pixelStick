@@ -82,7 +82,7 @@ def serverFunctionalCode(connection, client_address):
                 # get file for filename fro ios client also make sure file is BMP
                 print 'file is correct'
                 print 'Recieving Image'
-
+                print 'beginning file size %d' % os.path.getsize(imageName)
                 while not os.path.getsize(imageName) < sizeExpected:
                     data = connection.recv(4096)
                     imageFile.write(data)
