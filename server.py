@@ -81,7 +81,6 @@ def serverFunctionalCode(connection, client_address):
                 imageFile = open(imageName, 'w')
                 # get file for filename fro ios client also make sure file is BMP
                 print 'file is correct'
-                sock.recv(4096)
                 print 'Recieving Image'
 
                 while not fileWritten:
