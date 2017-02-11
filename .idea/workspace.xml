@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6896552">
-              <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+              <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -318,7 +318,13 @@
       <option name="project" value="LOCAL" />
       <updated>1486777138969</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="testing server side calcs">
+      <created>1486777466063</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1486777466063</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -561,7 +567,7 @@
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6896552">
-          <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+          <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
