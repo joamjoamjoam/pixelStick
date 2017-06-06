@@ -26,6 +26,7 @@ lcd screen for editing
 Home Screen
 ![Alt text](/HomeScreen.PNG?raw=true)
 Selecting Part of Image to Use
+![Alt text](/Selecting.PNG?raw=true)
 
 
 
