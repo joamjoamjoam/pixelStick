@@ -1,6 +1,6 @@
 Pixel Stick Project
 
-Pixel Stick Light Painting Clone using a custom python API to communicate with a raspberry pi to control leds for use in light painting.
+Pixel Stick Light Painting Clone using a custom python API and iOS Application to communicate with a raspberry pi to control leds for use in light painting.
 
 The original can be viewed here : https://www.youtube.com/watch?v=cKJwNNjqtck
 
@@ -9,6 +9,8 @@ Python TCP/IP Socket Communication
 Custom API
 Raspberry PI GPIO Manipulation
 Basic Circuitry
+Sending Pictures From an iOS Application to the Pixel Stick Clone for viewing
+Controlling GPIO of RPi 3 from iOS Application
 
 
 BOM:
