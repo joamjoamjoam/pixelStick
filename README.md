@@ -23,5 +23,10 @@ pi 3
 v2:
 lcd screen for editing
 
+Home Screen
+
+Selecting Part of Image to Use
+
+
 
 
